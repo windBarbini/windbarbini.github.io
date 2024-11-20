@@ -81,12 +81,12 @@ social:
     username: barbini_wx
     url: https://x.com/barbini_wx
     desc: Twitter Account
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
-    username: ""
-    url: ""
+    username: Emily Barbini
+    url: https://www.youtube.com/@barbiniwx
     desc: YouTube Channel
     share: false
 
