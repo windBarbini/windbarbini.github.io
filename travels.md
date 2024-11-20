@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Adventures
-permalink: /adventures/
+title: Travels
+permalink: /travels/
 main_nav: true
 ---
 
