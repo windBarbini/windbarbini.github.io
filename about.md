@@ -7,12 +7,6 @@ main_nav: true
 
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+Emily Barbini recently graduated from the University of Oklahoma with a B.S. in Meteorology. She aims to obtain a M.S. in Meteorology, alongside a possibly a certification in Geographic Information Systems (GIS). She served as a Pathways Intern for the National Weather Service's West Gulf River Forecast Center (NWS WGRFC), where she fulfilled duties such as issuing river forecasts and helping push out the CatFIM 10% project. Emily's areas of expertise lie in surface-atmosphere interactions (particularly with cities), hydrometeorology, GIS, as well as severe weather. Although she no longer interns with the NWS WGRFC, she is still collaborating with them with an extensive research project- investigating how the topography of Dallas-Fort Worth impacts flooding in the surrounding region. 
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
-
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+True to the Barbini family nature, Emily also has a passion for the birds and aircraft that dwell in the very sky she studies. You can find some of her photography on her <a href="https://x.com/barbini_wx">Twitter</a> and this new website.
