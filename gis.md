@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "GIS"
-permalink: /posts/
+permalink: /gis/
 main_nav: true
 ---
 
