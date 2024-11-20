@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Areas Visited"
+title:  "Places Visited"
 date:   2024-09-23 00:00:00
 author: Emily Barbini
 categories: Misc.
