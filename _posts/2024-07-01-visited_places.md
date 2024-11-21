@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Places Visited"
-author: Emily Barbini
 date: 2024-07-01
 categories: Misc.
+cover: "/assets/instacode.png"
 ---
 
 <h1>US Counties Visited</h1>
