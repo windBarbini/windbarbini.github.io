@@ -3,7 +3,7 @@ layout: post
 title:  "Places Visited"
 date: 2024-07-01
 categories: Misc.
-cover: "/assets/instacode.png"
+cover: "/assets/EKB_3033_e_c.jpg"
 ---
 
 <h1>US Counties Visited</h1>
