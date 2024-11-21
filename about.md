@@ -6,7 +6,9 @@ main_nav: true
 ---
 
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
-<center><h3>Emily Barbini</h3></center>
+<div style="text-align: center;">
+  <h3>Emily Barbini</h3>
+</div>
 
 <p>Emily Barbini recently graduated from the University of Oklahoma with a B.S. in Meteorology. She aims to obtain a M.S. in Meteorology and possibly a certification in Geographic Information Systems (GIS). Her areas of expertise lie in surface-atmosphere interactions (particularly with cities), hydrometeorology, GIS, as well as severe weather.</p>
 
