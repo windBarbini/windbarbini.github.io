@@ -5,7 +5,6 @@ permalink: /thephotogallery/
 main_nav: True
 ---
 
-<hr>
 
 <h1 id="paragraph">Tornado from Andover, KS</h1>
 ![alt text]({{ site.baseurl }}/shots/EKB_8862_wm_e_c.jpg "Andover 2022 Tornado")
