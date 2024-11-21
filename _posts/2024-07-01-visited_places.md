@@ -6,7 +6,7 @@ date: 2024-07-01
 categories: Misc.
 ---
 
-<h1>US Counties Visited TEST</h1>
+<h1>US Counties Visited</h1>
 <a href="{{ site.baseurl }}/maps/fun/Counties_Map.png" data-lightbox="counties-map" data-title="Counties that I have Visited">
   <img 
     src="{{ site.baseurl }}/maps/fun/Counties_Map.png" 
