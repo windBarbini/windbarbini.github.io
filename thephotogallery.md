@@ -41,7 +41,10 @@ main_nav: True
 
 <hr>
 
-<h3>To see more of my photos, feel free to check out my <a href="https://x.com/barbini_wx">Twitter</a>!</h3>
+<div style="text-align: center;">
+  <h3>To see more of my photos, feel free to check out my <a href="https://x.com/barbini_wx">Twitter</a>!</h3>
+</div>
+
 
 
 
