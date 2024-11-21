@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Places Visited"
+author: Emily Barbini
 date: 2024-07-01
 categories: Misc.
 cover: "/assets/EKB_3033_e_c.jpg"
