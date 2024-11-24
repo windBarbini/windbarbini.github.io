@@ -6,29 +6,31 @@ main_nav: true
 ---
 
 <h2 id="headings">Impacts of Urban Dallas-Fort Worth on Flooding, Part II</h2>
-<p>Detail the goals of Part 2 of the research project.</p>
+<p>The goals and progress of Part 2 of the research project will be posted soon.</p>
 
 <hr>
 
 <h2 id="headings">Impacts of Urban Areas on Supercell Thunderstorms</h2>
-<div style="text-align: center;">
-  <iframe 
-    src="{{ site.baseurl }}/research/UrbanSupercells.pdf" 
-    style="width: 80%; height: 600px; border: none;" 
-    title="Example PDF"></iframe>
-</div>
-<p> Talk about capstone project, findings, and AMS presentation</p>
+<a href="{{ site.baseurl }}/research/UrbanSupercells.jpg" data-lightbox="urban-supercells" data-title="Urban Areas and Supercells">
+  <img 
+    src="{{ site.baseurl }}/research/UrbanSupercells.jpg" 
+    alt="Urban Areas and Supercells" 
+    title="Urban Areas and Supercells"
+    style="width: auto; height:auto;">
+</a>
+<p> Senior Capstone project details and findings will be posted soon.</p>
 
 <hr>
 
 <h2 id="headings">Impacts of Urban Dallas-Fort Worth on Flooding, Part I</h2>
-<div style="text-align: center;">
-  <iframe 
-    src="{{ site.baseurl }}/research/UHI_Flood1.pdf" 
-    style="width: 80%; height: 600px; border: none;" 
-    title="Example PDF"></iframe>
-</div>
-<p> Detail the project, accomplishments, and AMS presentation.</p>
+<a href="{{ site.baseurl }}/research/UHI_Flood1.jpg" data-lightbox="uhi-flood-1" data-title="Dallas-Fort Worth UHI and Flooding, Part 1">
+  <img 
+    src="{{ site.baseurl }}/research/UHI_Flood1.jpg" 
+    alt="Part 1 of Study" 
+    title="Part 1 of Study"
+    style="width: auto; height:auto;">
+</a>
+<p> The project details and findings will be posted soon.</p>
 
 <hr>
 
@@ -40,7 +42,7 @@ main_nav: true
     title="OUTFLOW Coptersonde"
     style="width: auto; height:auto;">
 </a>
-<p> Talk about your experiences and duties in this field campaign.</p>
+<p> My experiences and duties in this field campaign will be posted here soon.</p>
 
 <hr>
 
@@ -52,4 +54,4 @@ main_nav: true
     title="Emily and Mobile Mesonet Truck"
     style="width: auto; height:auto;">
 </a>
-<p> Talk about your experiences and duties in this field campaign.</p>
+<p> My experiences and duties in this field campaign will be posted here soon.</p>
