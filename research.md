@@ -47,9 +47,9 @@ main_nav: true
 <hr>
 
 <h2 id="headings">TORUS Field Campaign</h2>
-<a href="{{ site.baseurl }}/research/TORUS_P1.jpg" data-lightbox="uav-coptersonde" data-title="Emily and Probe 1">
+<a href="{{ site.baseurl }}/research/TORUS_P1.JPG" data-lightbox="uav-coptersonde" data-title="Emily and Probe 1">
   <img 
-    src="{{ site.baseurl }}/research/TORUS_P1.jpg" 
+    src="{{ site.baseurl }}/research/TORUS_P1.JPG" 
     alt="Emily and Mobile Mesonet Truck" 
     title="Emily and Mobile Mesonet Truck"
     style="width: auto; height:auto;">
