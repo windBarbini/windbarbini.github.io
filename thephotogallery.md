@@ -3,6 +3,7 @@ layout: page
 title: Photography
 permalink: /thephotogallery/
 main_nav: True
+nav_order: 4
 ---
 
 
