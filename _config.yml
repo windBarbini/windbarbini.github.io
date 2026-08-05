@@ -35,7 +35,7 @@ collections:
     permalink: /_posts/:title/
   art:
     output: true
-    permalink: /art/:title/
+    permalink: /_posts/:title/
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
