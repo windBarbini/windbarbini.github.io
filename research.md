@@ -3,6 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 main_nav: true
+nav_order: 3
 ---
 
 <h2 id="headings">Impacts of Urban Dallas-Fort Worth on Flooding, Part II</h2>
