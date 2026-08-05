@@ -5,34 +5,7 @@ permalink: /gis/
 main_nav: true
 nav_order: 2
 ---
-# GIS testing stuffs
-
-{% assign gis_posts = site.categories.gis %}
-
-{% for tag in site.tags %}
-{% assign tag_name = tag | first %}
-{% assign tag_posts = tag | last %}
-{% assign has_gis_posts = false %}
-{% for post in tag_posts %}
-{% if post.categories contains "gis" or post.categories contains "gis" %}
-{% assign has_gis_posts = true %}
-{% endif %}
-{% endfor %}
-{% if has_gis_posts %}
-<h2>{{ tag_name | capitalize }}</h2>
-<ul class="posts-list">
-{% for post in tag_posts %}
-{% if post.categories contains "gis" or post.categories contains "gis" %}
-<li>
-<strong>
-<a href="{{ post.url | prepend: site.baseurl }}">
-{{ post.title }}
-</a>
-</strong>
-<span class="post-date">- {{ post.date | date_to_long_string }}</span>
-</li>
-{% endif %}
-{% endfor %}
+<h2>Test Header</h2>
+<ul>
+<li>Test Item</li>
 </ul>
-{% endif %}
-{% endfor %}
