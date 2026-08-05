@@ -3,6 +3,7 @@ layout: page
 title: "GIS"
 permalink: /gis/
 main_nav: true
+nav_order: 2
 ---
 
 {% for category in site.categories %}
