@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Art"
 permalink: /art/
 main_nav: true
@@ -8,24 +8,14 @@ nav_order: 5
 
 # This is where I'll put my cross-stitch and pattern generators
 
-{% for category in site.categories %}
-  {% capture cat %}{{ category | first }}{% endcapture %}
-  <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
-  {% for desc in site.descriptions %}
-    {% if desc.cat == cat %}
-      <p class="desc"><em>{{ desc.desc }}</em></p>
-    {% endif %}
-  {% endfor %}
-  <ul class="posts-list">
-  {% for post in site.categories[cat] %}
+{% assign tutorials = site.tutorials | sort: "order" %}
+
+<ul class="posts-list">
+{% for tutorial in tutorials %}
     <li>
-      <strong>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </strong>
-      <span class="post-date">- {{ post.date | date_to_long_string }}</span>
+        <a href="{{ tutorial.url | prepend: site.baseurl }}">
+            {{ tutorial.title }}
+        </a>
     </li>
-  {% endfor %}
-  </ul>
-  {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
-<br>
+</ul>
