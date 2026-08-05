@@ -7,5 +7,15 @@ nav_order: 5
 ---
 
 # This is where I'll put my cross-stitch and pattern generators
+{% assign tutorials = site.tutorials | sort: "order" %}
 
-# WIP
+<ul class="posts-list">
+{% for tutorial in tutorials %}
+    <li>
+        <a href="{{ tutorial.url | prepend: site.baseurl }}">
+            {{ tutorial.title }}
+        </a>
+    </li>
+{% endfor %}
+</ul>
+
