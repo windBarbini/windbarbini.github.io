@@ -28,6 +28,15 @@ markdown: kramdown
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
 
+#Collections
+collections:
+  gis:
+    output: true
+    permalink: /_posts/:title/
+  art:
+    output: true
+    permalink: /_tutorials/:title/
+
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
