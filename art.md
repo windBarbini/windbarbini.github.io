@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Art"
 permalink: /art/
 main_nav: true
