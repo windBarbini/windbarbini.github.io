@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 main_nav: true
+nav_order: 1
 ---
 
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
