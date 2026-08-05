@@ -39,14 +39,3 @@ nav_order: 2
 
 {% endif %}
 {% endfor %}
-
-<style>
-.gis-tag-header {
-  margin-top: 1em;
-  margin-bottom: 0.25em;
-}
-
-.gis-tag-header + .posts-list {
-  margin-top: 0;
-}
-</style>
