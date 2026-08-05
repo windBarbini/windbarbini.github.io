@@ -1,5 +1,5 @@
 {% assign sorted_pages = site.pages | sort: "nav_order" %}
-{% for page in site.pages %}
+{% for page in sorted_pages %}
 	{% if page.title and page.main_nav == true %}
 	<li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 	{% endif %}
