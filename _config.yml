@@ -37,15 +37,15 @@ collections:
     output: true
     permalink: /_posts/:title/
 
-{% comment %}
+
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
-  enabled: true
+  enabled: false
   per_page: 5
   permalink: "/page/:num/"
   sort_reverse: true
-{% uncomment %}
+
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
