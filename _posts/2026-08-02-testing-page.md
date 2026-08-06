@@ -9,7 +9,7 @@ tags: Cross-Stitch
 
 
 <h2>Page Testing</h2>
-Very very rough WIP!
+Very rough WIP!
 
 <hr>
 
@@ -75,7 +75,7 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 
 <hr>
 
-<h1>Step 2. Generate the Pattern</h1>
+<h1>Step 2. Generate the Pattern...</h1>
 "Generate Pattern" button goes here
 Pattern and reference(s) should appear below:
 
