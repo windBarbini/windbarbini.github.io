@@ -49,8 +49,9 @@ layout: default
 <section class="rss">
   <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
 </section>
+{% endcomment %}
 
-
+{% comment %}
 <section class="share">
   <span>Share: </span>
   {% for social in site.social %}
@@ -94,8 +95,8 @@ layout: default
       <a href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('{{ full_url }}') + '&t={{page.title}}'; return false">
         <i class="fa fa-{{ social.icon | remove_first: '-square' }} fa-lg"></i>
       </a>
-{% endcomment %}
     {% endif %}
+{% endcomment %}
   {% endfor %}
 </section>
 {% if site.inter_post_navigation == true %}
