@@ -20,6 +20,8 @@ nav_order: 2
 {% endfor %}
 
 {% if has_gis_posts %}
+<div class="tag-section">
+
 <h2 class="tag-header">{{ tag_name | capitalize }}</h2>
 
 <ul class="posts-list">
@@ -35,18 +37,24 @@ nav_order: 2
 </li>
 {% endif %}
 {% endfor %}
+
 </ul>
+
+</div>
 
 {% endif %}
 {% endfor %}
 
 <style>
-.gis-tag-header {
-  margin-top: 1em;
-  margin-bottom: 0.25em;
+.tag-header {
+    margin-bottom: 0.2em;
 }
 
-.gis-tag-header + .posts-list {
-  margin-top: 0;
+.tag-section {
+    margin-bottom: 2em;
+}
+
+.posts-list {
+    margin-top: 0;
 }
 </style>
