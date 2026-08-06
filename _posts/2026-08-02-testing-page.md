@@ -9,12 +9,12 @@ tags: Cross-Stitch
 
 
 <h2>Page Testing</h2>
-Very rough WIP!
+Very very rough WIP!
 
 <hr>
 
 Select from the preferences below to generate an editable cross-stitch pattern from an observed weather balloon hodograph!
-<i>Please note that this generator uses soundings from the University of Wyoming's radiosonde archive, so some soundings might be missing.)</i>
+<i>(Please note that this generator uses soundings from the University of Wyoming's radiosonde archive, so some soundings might be missing.)</i>
 
 <hr>
 
