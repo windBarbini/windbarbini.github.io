@@ -31,14 +31,16 @@
               <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
             </a>
           </li>
+    <div class = "designer-credit">
+	<p><strong>Website made using the Centrarium theme by Ben Centra</strong></p>
           {% endif %}
         {% endfor %}
 
       </ul>
     </div>
 {% comment %}
-    <div class="site-signature">
-      <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+    <div class="designer-credit">
+      <p class="designer-credit-named"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
       <p class="text">{{ site.description }}</p>
     </div>
 {% endcomment %}
