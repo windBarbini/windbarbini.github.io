@@ -6,6 +6,7 @@ main_nav: true
 nav_order: 5
 ---
 
+
 {% assign art_posts = site.categories.art %}
 
 {% for tag in site.tags %}
@@ -20,7 +21,9 @@ nav_order: 5
 {% endfor %}
 
 {% if has_art_posts %}
-<h2>{{ tag_name | capitalize }}</h2>
+<div class="tag-section">
+
+<h2 class="tag-header">{{ tag_name | capitalize }}</h2>
 
 <ul class="posts-list">
 {% for post in tag_posts %}
@@ -35,7 +38,24 @@ nav_order: 5
 </li>
 {% endif %}
 {% endfor %}
+
 </ul>
+
+</div>
 
 {% endif %}
 {% endfor %}
+
+<style>
+.tag-header {
+    margin-bottom: 0.2em;
+}
+
+.tag-section {
+    margin-bottom: 2em;
+}
+
+.posts-list {
+    margin-top: 0;
+}
+</style>
