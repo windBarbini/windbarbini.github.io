@@ -47,6 +47,32 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 		<option> value="23" name="23"</option>
 	</select>
 
+<label for="themes">Select a Theme:</label>
+	<select id="themes" name="theme">
+		<option> value="light" name="Light"</option>
+		<option> value="dark name="Dark</option>
+	</select>
+
+<label for="styles">Select a Style:</label>
+	<select id="styles" name="style">
+		<option> value="spc" name="SPC"</option>
+		<option> value="spy" name="SounderPy"</option>
+		<option> value="sharppy" name="SHARPpy"</option>
+	</select>
+
+<label for="backgrounds">Select a Background:</label>
+	<select id="backgrounds" name="background">
+		<option value="coordinateplane" name="Coordinate Plane"</option>
+		<option value="blank" name="Blank"</option>
+	</select>
+
+<label for="borders">Would you like an Outline?:</label>
+	<select id="borders" name="border">
+		<option value="yes" name="Yes"</option>
+		<option value="no" name="No"</option>
+	</select>
+
+
 <hr>
 
 <h1>Step 2. Generate the Pattern</h1>
