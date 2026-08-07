@@ -9,7 +9,7 @@ tags: Cross-Stitch
 
 
 <h2>Page Testing</h2>
-Very rough WIP!
+This page is a work in progress!
 
 <hr>
 
