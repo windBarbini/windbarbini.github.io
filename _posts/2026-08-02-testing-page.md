@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "Test"
+title:  "Hodograph Cross-Stitch Pattern Maker"
 date:   2026-08-02-18T00:00:00-00:00
 author: Emily Barbini
+cover: "/assets/gis/hodo_emb_header.jpg"
 categories: art
 tags: Cross-Stitch
 ---
 
-
-<h2>Page Testing</h2>
 This page is a work in progress!
 
 <hr>
@@ -19,7 +18,23 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 <hr>
 
 <h1>Step 1.</h1> <h3>Select your Preferences</h3>
-<label for="times">Select a Time (in UTC/Zulu):</label>
+
+<label for="dates">Select a Date:</label>
+	input[type="date"]::-webkit-calendar-picker-indicator {
+   	background: transparent;
+    	bottom: 0;
+    	color: transparent;
+    	cursor: pointer;
+    	height: auto;
+    	left: 0;
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+    	width: auto;
+	}
+
+
+<label for="times">Select an Hour (in UTC/Zulu):</label>
 	<select id="times" name="time">
 		<option value="00">00</option>
 		<option value="01">01</option>
@@ -76,7 +91,7 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 <hr>
 
 <h1>Step 2.</h1> <h3>Generate the Pattern</h3>
-"Generate Pattern" button goes here
+"Generate Pattern" button goes here...
 Pattern and reference(s) should appear below:
 
 
