@@ -20,18 +20,7 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 <h1>Step 1.</h1> <h3>Select your Preferences</h3>
 
 <label for="dates">Select a Date:</label>
-	input[type="date"]::-webkit-calendar-picker-indicator {
-   	background: transparent;
-    	bottom: 0;
-    	color: transparent;
-    	cursor: pointer;
-    	height: auto;
-    	left: 0;
-    	position: absolute;
-    	right: 0;
-    	top: 0;
-    	width: auto;
-	}
+	<input type="date" id="date">
 
 
 <label for="times">Select an Hour (in UTC/Zulu):</label>
