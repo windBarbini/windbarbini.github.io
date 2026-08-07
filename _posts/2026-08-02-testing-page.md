@@ -54,7 +54,7 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 <label for="themes">Select a Theme:</label>
 	<select id="themes" name="theme">
 		<option value="light">Light</option>
-		<option value="dark>Dark</option>
+		<option value="dark">Dark</option>
 	</select>
 
 <label for="styles">Select a Style:</label>
