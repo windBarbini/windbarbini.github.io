@@ -232,7 +232,7 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 		<option value="yes">Yes</option>
 		<option value="no">No</option>
 	</select>
-</label>
+
 
 
 <hr>
