@@ -189,11 +189,47 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 		<option value="blank">Blank</option>
 	</select>
 
-<label for="borders">Would you like an Outline?:</label>
+<label for="frames">Select the Framing Type:</label>
+	<select id="frames" name="framing">
+		<option value="embroideryhoop">Embroidery Hoop</option>
+		<option value="pictureframe">Picture Frame</option>
+	</select>
+
+<label for="titles">Would You like to Display the Date and Station?:</label>
+	<option>Select a Framing type first</option>
+</label>
+
+<script>
+function updateCustomization() {
+	const frame = document.getElementById("frames").value;
+	const title = document.getElementByID("titles");
+	title.innerHTML = "";
+	
+	const titleoptions = frame === "pictureframe"
+		? [
+			{value: "yes", text: "Yes"},
+			{value: "no", text: "No"}
+		  ]
+		: [
+			{value: "no", text: "No"}
+		  ];
+
+	titleoptions.forEach(option => {
+		const choice = document.createElement("choice");
+		choice.value = option.value;
+		choice.textContent = option.text;
+		title.appendChild(choice);
+	});
+}
+			
+</script>
+
+<label for="borders">Would you like to Outline the Graph?:</label>
 	<select id="borders" name="border">
 		<option value="yes">Yes</option>
 		<option value="no">No</option>
 	</select>
+</label
 
 
 <hr>
