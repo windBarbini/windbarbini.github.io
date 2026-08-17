@@ -196,32 +196,35 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 	</select>
 
 <label for="titles">Would You like to Display the Date and Station?:</label>
-	<option>Select a Framing type first</option>
-</label>
+	<select id="titles" name="title">
+		<option value="">Select a Framing type first</option>
+	</select>
 
 <script>
-function updateCustomization() {
-	const frame = document.getElementById("frames").value;
-	const title = document.getElementByID("titles");
-	title.innerHTML = "";
+	function updateCustomization() {
+		const frame = document.getElementById("frames").value;
+		const title = document.getElementById("titles");
+		title.innerHTML = "";
 	
-	const titleoptions = frame === "pictureframe"
-		? [
-			{value: "yes", text: "Yes"},
-			{value: "no", text: "No"}
-		  ]
-		: [
-			{value: "no", text: "No"}
-		  ];
+		const titleoptions = frame === "pictureframe"
+			? [
+				{value: "yes", text: "Yes"},
+				{value: "no", text: "No"}
+			  ]
+			: [
+				{value: "no", text: "No"}
+			  ];
 
-	titleoptions.forEach(option => {
-		const choice = document.createElement("choice");
-		choice.value = option.value;
-		choice.textContent = option.text;
-		title.appendChild(choice);
-	});
-}
-			
+		titleoptions.forEach(option => {
+			const choice = document.createElement("option");
+			choice.value = option.value;
+			choice.textContent = option.text;
+			title.appendChild(choice);
+		});
+	}
+
+	document.getElementById("frames").addEventListener("change", updateCustomization);
+	updateCustomization(); 			
 </script>
 
 <label for="borders">Would you like to Outline the Graph?:</label>
@@ -229,7 +232,7 @@ function updateCustomization() {
 		<option value="yes">Yes</option>
 		<option value="no">No</option>
 	</select>
-</label
+</label>
 
 
 <hr>
