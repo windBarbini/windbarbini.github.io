@@ -13,11 +13,11 @@ This page is a work in progress!
 <hr>
 
 Select from the preferences below to generate an editable cross-stitch pattern from an observed weather balloon hodograph!
-<i>(Please note that this generator uses soundings from the University of Wyoming's radiosonde archive, so some soundings might be missing.)</i>
+<i>(Please note that this generator uses soundings from the University of Wyoming's radiosonde archive, so some soundings might be missing. In addition, only weather balloons launched in the United States are used.)</i>
 
 <hr>
 
-<h1>Step 1.</h1> <h3>Select your Preferences</h3>
+<h1>Step 1. Select your Preferences</h1>
 
 
 <label for="locations">Select a Location:</label>
@@ -198,14 +198,30 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 
 <hr>
 
-<h1>Step 2.</h1> <h3>Generate the Pattern</h3>
-"Generate Pattern" button goes here...
+<h1>Step 2. Generate the Pattern</h1>
+<style>
+	button {
+		background-color: #87DDFF;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+</style>
+<button>Generate Pattern!</button>
+<i>("Generate Pattern" button does not work yet.)</i>
+<br>
 Pattern and reference(s) should appear below:
 
 
 <hr>
 
-<h1>Step 3.</h1> <h3>Download the pattern, edit as needed, and sew!</h3>
+<h1>Step 3. Download the pattern, edit as needed, and sew!</h1>
 
 <hr>
 
