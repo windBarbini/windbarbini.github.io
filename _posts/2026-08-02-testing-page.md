@@ -253,12 +253,12 @@ tags: Cross-Stitch
 </style>
 <center><button>Generate Pattern!</button></center>
 <br>
-<center><i>("Generate Pattern" button does not work yet.)</i></center<
+<center><i>("Generate Pattern" button does not work yet.)</i></center>
 
 <hr>
 
-<h1>Step 3. Download the pattern, edit as needed, and sew!</h1>
-<center<<i>Pattern and reference(s) should appear here once the code is connected with the webpage!</i></center>
+<h1>Step 3. Edit the Pattern as Needed, and Sew!</h1>
+<center><i>Pattern and reference(s) should appear here once the code is connected with the webpage!</i></center>
 <br>
 <hr>
 
