@@ -226,7 +226,7 @@ tags: Cross-Stitch
 
 
 <label for="times">Select an Hour (in UTC/Zulu):</label>
-	<select id="times" name="time" size="15" style="width:250px;">
+	<select id="times" name="time">
 		<option value="00">00</option>
 		<option value="01">01</option>
 		<option value="02">02</option>
