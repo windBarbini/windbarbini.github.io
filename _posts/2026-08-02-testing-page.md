@@ -17,7 +17,21 @@ tags: Cross-Stitch
 <center><i>(Please note that this generator uses soundings from the University of Wyoming's radiosonde archive, so some soundings might be missing.)</i></center>
 
 <hr>
+<style>
+    #locations {
+        width: 250px;
+    }
 
+    #locations optgroup {
+        display: block;
+        font-weight: bold;
+        color: black;
+    }
+
+    #locations option {
+        color: black;
+    }
+</style>
 <h1>Step 1. Select your Preferences</h1>	
 <label for="locations">Select a Location:</label>
 	<select id="locations" name="location">
@@ -220,7 +234,6 @@ tags: Cross-Stitch
 	    </optgroup>
 	</select>
 		
-
 
 
 <hr>
