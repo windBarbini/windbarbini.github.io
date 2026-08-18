@@ -248,7 +248,7 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 		text-decoration: none;
 		display: inline-block;
 		font-size: 16px;
-		margin: 4px 2px;
+		margin: 0 auto;
 		cursor: pointer;
 	}
 </style>
