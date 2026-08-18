@@ -20,20 +20,20 @@ tags: Cross-Stitch
 
 <h1>Step 1. Select your Preferences</h1>
 
-
+<style>
+	optgroup {
+		font-weight: bold;
+		color: black;
+	}
+	option {
+		font-weight: normal;
+		color: black;
+	}
+</style>
+		
 <label for="locations">Select a Location:</label>
 	<select id="locations" name="location">
-	<style>
-		optgroup {
-			font-weight: bold;
-			color: black;
-		}
-		option {
-			font-weight: normal;
-			color: black;
-		}
-	</style>
-			
+	
             <optgroup label="Alabama">
                 <option value ="72230">Birmingham</option>
             </optgroup>
@@ -236,9 +236,6 @@ tags: Cross-Stitch
 
 <label for="dates">Select a Date:</label>
 	<input type="date" id="date">
-	#date {
-		width: auto;
-	}
 
 
 <label for="times">Select an Hour (in UTC/Zulu):</label>
