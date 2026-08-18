@@ -141,6 +141,9 @@ tags: Cross-Stitch
 
 <label for="dates">Select a Date:</label>
 	<input type="date" id="date">
+#date {
+	width: auto;
+}
 
 
 <label for="times">Select an Hour (in UTC/Zulu):</label>
