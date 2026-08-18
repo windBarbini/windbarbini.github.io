@@ -8,12 +8,13 @@ categories: art
 tags: Cross-Stitch
 ---
 
-This page is a work in progress!
+<center><h1>This page is a work in progress!</h1></center>
 
 <hr>
 
-Select from the preferences below to generate an editable cross-stitch pattern from an observed weather balloon hodograph!
-<i>(Please note that this generator uses soundings from the University of Wyoming's radiosonde archive, so some soundings might be missing. In addition, only weather balloons launched in the United States are used.)</i>
+<center>Select from the preferences below to generate an editable cross-stitch pattern from an observed US weather balloon hodograph!</center>
+<br>
+<center><i>(Please note that this generator uses soundings from the University of Wyoming's radiosonde archive, so some soundings might be missing.)</i></center>
 
 <hr>
 
@@ -233,8 +234,6 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 		<option value="no">No</option>
 	</select>
 
-
-
 <hr>
 
 <h1>Step 2. Generate the Pattern</h1>
@@ -252,14 +251,14 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 		cursor: pointer;
 	}
 </style>
-<button>Generate Pattern!</button>
+<center><button>Generate Pattern!</button></center>
 <br>
-<i>("Generate Pattern" button does not work yet.)</i>
+<center><i>("Generate Pattern" button does not work yet.)</i></center<
 
 <hr>
 
 <h1>Step 3. Download the pattern, edit as needed, and sew!</h1>
-<i>Pattern and reference(s) should appear here once the code is connected with the webpage!</i>
+<center<<i>Pattern and reference(s) should appear here once the code is connected with the webpage!</i></center>
 <br>
 <hr>
 
