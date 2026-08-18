@@ -18,22 +18,9 @@ tags: Cross-Stitch
 
 <hr>
 
-<h1>Step 1. Select your Preferences</h1>
-
-<style>
-	optgroup {
-		font-weight: bold;
-		color: black;
-	}
-	option {
-		font-weight: normal;
-		color: black;
-	}
-</style>
-		
+<h1>Step 1. Select your Preferences</h1>	
 <label for="locations">Select a Location:</label>
 	<select id="locations" name="location">
-	
             <optgroup label="Alabama">
                 <option value ="72230">Birmingham</option>
             </optgroup>
