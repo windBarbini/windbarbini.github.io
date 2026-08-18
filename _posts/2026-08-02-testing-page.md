@@ -23,6 +23,17 @@ tags: Cross-Stitch
 
 <label for="locations">Select a Location:</label>
 	<select id="locations" name="location">
+	<style>
+		optgroup {
+			font-weight: bold;
+			color: black;
+		}
+		option {
+			font-weight: normal;
+			color: black;
+		}
+	</style>
+			
             <optgroup label="Alabama">
                 <option value ="72230">Birmingham</option>
             </optgroup>
@@ -225,13 +236,13 @@ tags: Cross-Stitch
 
 <label for="dates">Select a Date:</label>
 	<input type="date" id="date">
-#date {
-	width: auto;
-}
+	#date {
+		width: auto;
+	}
 
 
 <label for="times">Select an Hour (in UTC/Zulu):</label>
-	<select id="times" name="time">
+	<select id="times" name="time" size="15" style="width:250px;">
 		<option value="00">00</option>
 		<option value="01">01</option>
 		<option value="02">02</option>
