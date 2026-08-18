@@ -195,7 +195,7 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 		<option value="pictureframe">Picture Frame</option>
 	</select>
 
-<label for="titles">Would You like to Display the Date and Station?:</label>
+<label for="titles">Would You like to Display the Date and Station?</label>
 	<select id="titles" name="title">
 		<option value="">Select a Framing type first</option>
 	</select>
@@ -227,7 +227,7 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 	updateCustomization(); 			
 </script>
 
-<label for="borders">Would you like to Outline the Graph?:</label>
+<label for="borders">Would you like to add an Outline?</label>
 	<select id="borders" name="border">
 		<option value="yes">Yes</option>
 		<option value="no">No</option>
@@ -253,15 +253,14 @@ Select from the preferences below to generate an editable cross-stitch pattern f
 	}
 </style>
 <button>Generate Pattern!</button>
-<i>("Generate Pattern" button does not work yet.)</i>
 <br>
-Pattern and reference(s) should appear below:
-
+<i>("Generate Pattern" button does not work yet.)</i>
 
 <hr>
 
 <h1>Step 3. Download the pattern, edit as needed, and sew!</h1>
-
+<i>Pattern and reference(s) should appear here once the code is connected with the webpage!</i>
+<br>
 <hr>
 
 <h1>Pixel Art-Pattern Translations</h1>
