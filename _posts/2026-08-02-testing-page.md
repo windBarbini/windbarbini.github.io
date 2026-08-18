@@ -22,7 +22,7 @@ tags: Cross-Stitch
 
 
 <label for="locations">Select a Location:</label>
-	<select id="locations" name="location" size="15">
+	<select id="locations" name="location">
             <optgroup label="Alabama">
                 <option value ="72230">Birmingham</option>
             </optgroup>
@@ -231,7 +231,7 @@ tags: Cross-Stitch
 
 
 <label for="times">Select an Hour (in UTC/Zulu):</label>
-	<select id="times" name="time" size="12">
+	<select id="times" name="time">
 		<option value="00">00</option>
 		<option value="01">01</option>
 		<option value="02">02</option>
