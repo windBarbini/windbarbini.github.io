@@ -251,7 +251,7 @@ tags: Cross-Stitch
 <h1>Step 2. Generate the Pattern</h1>
 <style>
 	button {
-		background-color: #87DDFF;
+		background-color: #70AAD0;
 		border: none;
 		color: white;
 		padding: 15px 32px;
@@ -261,16 +261,20 @@ tags: Cross-Stitch
 		font-size: 16px;
 		margin: 0 auto;
 		cursor: pointer;
+		box-shadow: 15px 15px 42px rgba(0, 0, 0, 0.6);
 	}
 </style>
 <center><button>Generate Pattern!</button></center>
 <br>
 <center><i>("Generate Pattern" button does not work yet.)</i></center>
+<br>
+
 
 <hr>
 
 <h1>Step 3. Edit the Pattern as Needed, and Sew!</h1>
 <center><i>Pattern and reference(s) should appear here once the code is connected with the webpage!</i></center>
+<center>Right click and save the pattern. Edit as needed, and sew!</center>
 <br>
 <hr>
 
