@@ -261,7 +261,6 @@ tags: Cross-Stitch
 		font-size: 16px;
 		margin: 0 auto;
 		cursor: pointer;
-		box-shadow: 15px 15px 42px rgba(0, 0, 0, 0.6);
 	}
 </style>
 <center><button>Generate Pattern!</button></center>
@@ -278,7 +277,7 @@ tags: Cross-Stitch
 <br>
 <hr>
 
-<h1>Pixel Art-Pattern Translations</h1>
+<h1>Pixel-to-Stitch Translations</h1>
 
 <hr>
 
