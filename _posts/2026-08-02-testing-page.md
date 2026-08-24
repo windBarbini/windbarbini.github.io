@@ -3,7 +3,7 @@ layout: post
 title:  "Hodograph Cross-Stitch Pattern Maker"
 date:   2026-08-02-18T00:00:00-00:00
 author: Emily Barbini
-cover: "/assets/gis/hodo_emb/hodo_emb_header_copy.jpg"
+cover: "/assets/hodo_emb/hodo_emb_header_copy.jpg"
 categories: art
 tags: Cross-Stitch
 ---
